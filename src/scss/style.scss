@@ -12,3 +12,18 @@
 }
 
 @import 'fonts';
+
+
+
+.container {
+  min-width: 1200px;
+
+  @media (min-width: 360px) {
+   .container {
+
+   }
+  }
+
+}
+
+
